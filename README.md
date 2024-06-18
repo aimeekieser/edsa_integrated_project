@@ -61,12 +61,12 @@ We trained several machine learning classifiers to predict incident severity usi
 
 These models were further analyzed through classification reports. The feature space was reduced using feature importance and backward sequential feature selection for the top 20 features, and model hyperparameters were tuned using GridSearchCV.
 
-![Model Accuracies](ML Model/model_accuracies.png)
+![Model Accuracies](Images/model_accuracies.png)
 
 ## Results
 The top performing model is the Random Forest, achieving an F1-score of 0.75 on the testing set.
 
-![Random Forest](ML Model/random_forest_confusion_matrix.png)
+![Random Forest](Images/random_forest_confusion_matrix.png)
 
 While this model demonstrated better recall for the major than minor class, our priority for this project was to accurately predict major incidents to facilitate better resource allocation to these claims. As such, the Random Forest best meets our objectives.
 
